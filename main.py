@@ -15,7 +15,7 @@ weather_status = "更新中..."
 city = "Newyork"
 temp2 = True
 
-def update_weather(city=):
+def update_weather(city):
     global weather,update_time,weather_status
     try:
         rb = requests.get(f'http://wthrcdn.etouch.cn/weather_mini?city={city}')
